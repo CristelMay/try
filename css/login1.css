@@ -1,38 +1,44 @@
 body {
-    margin-top: 25px;
     font-family: Arial, sans-serif;
     background-color: #e0e0e0; /* Updated to a slightly darker gray */
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
 .container {
     width: 80%;
     max-width: 400px;
-    height: 460px; /* Specified height */
     background-color: #FFF1F1;
     border-radius: 12px;
     padding: 22px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+    margin: 20px auto; /* Center the container with some top margin */
 }
+
 .header {
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Align items to the left */
-    margin-bottom: 5px;
+    margin-bottom: 15px; /* Increased margin */
 }
+
 .header img {
-    margin-top: 5px;
-    width: 105px; /* Adjust width */
+    width: 105px; /* Adjusted width */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Adjusted margin */
 }
+
 h2.shoe-bros {
     font-family: 'Beau Rivage', cursive;
     font-size: 47px; /* Increased font size */
     margin: 0;
     color: #6B0101;
-    margin-left: 10px;
 }
+
 h2.welcome {
     font-family: 'Belanosima', sans-serif;
     font-size: 30px;
@@ -40,15 +46,18 @@ h2.welcome {
     margin-top: 15px; /* Reduced margin-top */
     margin-bottom: 10px; /* Reduced margin-bottom */
 }
+
 p {
     color: #6B0101;
 }
+
 label {
     display: block;
     text-align: left;
     margin: 10px 0 5px;
     color: #6B0101;
 }
+
 input {
     width: 100%;
     padding: 10px;
@@ -57,6 +66,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 button {
     width: 100%;
     padding: 10px;
@@ -67,9 +77,11 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
+
 button:hover {
     background-color: #6B0101; /* Darker color on hover */
 }
+
 a {
     text-decoration: none;
     color: #333;
@@ -79,15 +91,17 @@ a {
     position: relative;
     width: 100%;
 }
+
 .password-container input[type="password"],
 .password-container input[type="text"] {
     width: 100%;
-    padding-right: 50px; /* Adjust padding to make space for the icon */
+    padding-right: 30px; /* Adjusted padding */
     box-sizing: border-box; /* Ensure padding is within the input's bounds */
 }
+
 .password-container .toggle-password {
     position: absolute;
-    top: 40%; /* Adjust this value to move the icon up */
+    top: 40%; /* Center vertically */
     right: 10px;
     transform: translateY(-50%);
     cursor: pointer;
@@ -96,26 +110,5 @@ a {
 
 .forgot-password {
     font-size: 13px; /* Adjust font size as necessary */
-}
-
-/* Responsive design */
-@media (max-width: 480px) {
-    h2.shoe-bros {
-        font-size: 36px; /* Decrease font size for smaller screens */
-    }
-    h2.welcome {
-        font-size: 24px; /* Decrease font size for smaller screens */
-    }
-    .header img {
-        width: 80px; /* Decrease width for smaller screens */
-        margin-right: 10px; /* Decrease margin for smaller screens */
-    }
-    .container {
-        width: 90%; /* Increase width for better spacing on smaller screens */
-        height: auto; /* Allow height to adjust automatically */
-        padding: 15px; /* Adjust padding for smaller screens */
-    }
-    .password-container .toggle-password {
-        font-size: 20px; /* Increase icon size if needed */
-    }
+    margin-top: 10px; /* Added margin */
 }
