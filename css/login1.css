@@ -27,11 +27,11 @@
             margin-bottom: 15px; /* Increased margin */
         }
 
-        .header img {
-            width: 100px; /* Adjusted width */
-            height: auto; /* Maintain aspect ratio */
-            margin-right: 20px; /* Adjusted margin */
-        }
+      .header img {
+    width: 105px; /* Adjusted width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Adjusted margin */
+}
 
         h2.shoe-bros {
             font-family: 'Beau Rivage', cursive;
