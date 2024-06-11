@@ -9,8 +9,8 @@ body {
     max-width: 400px;
     height: 460px; /* Specified height */
     background-color: #FFF1F1;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 12px;
+    padding: 22px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
 }
@@ -78,24 +78,44 @@ a {
 .password-container {
     position: relative;
     width: 100%;
-  }
-  .password-container input[type="password"],
-  .password-container input[type="text"] {
+}
+.password-container input[type="password"],
+.password-container input[type="text"] {
     width: 100%;
     padding-right: 50px; /* Adjust padding to make space for the icon */
     box-sizing: border-box; /* Ensure padding is within the input's bounds */
-  }
-  .password-container .toggle-password {
+}
+.password-container .toggle-password {
     position: absolute;
     top: 40%; /* Adjust this value to move the icon up */
     right: 10px;
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 15px; /* Adjust icon size as necessary */
-  }
+}
 
-  .forgot-password {
+.forgot-password {
     font-size: 13px; /* Adjust font size as necessary */
-  }
+}
 
-
+/* Responsive design */
+@media (max-width: 480px) {
+    h2.shoe-bros {
+        font-size: 36px; /* Decrease font size for smaller screens */
+    }
+    h2.welcome {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+    .header img {
+        width: 80px; /* Decrease width for smaller screens */
+        margin-right: 10px; /* Decrease margin for smaller screens */
+    }
+    .container {
+        width: 90%; /* Increase width for better spacing on smaller screens */
+        height: auto; /* Allow height to adjust automatically */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+    .password-container .toggle-password {
+        font-size: 20px; /* Increase icon size if needed */
+    }
+}
