@@ -28,7 +28,7 @@
         }
 
         .header img {
-            width: 105px; /* Adjusted width */
+            width: 100px; /* Adjusted width */
             height: auto; /* Maintain aspect ratio */
             margin-right: 10px; /* Adjusted margin */
         }
@@ -95,22 +95,21 @@
             width: 100%;
         }
 
-        .password-container input[type="password"],
-        .password-container input[type="text"] {
-            width: calc(100% - 40px); /* Adjusted width to make space for the icon */
-            padding-right: 40px; /* Adjusted padding */
-            box-sizing: border-box; /* Ensure padding is within the input's bounds */
-        }
+       .password-container input[type="password"],
+      .password-container input[type="text"] {
+    width: 100%;
+    padding-right: 30px; /* Adjusted padding */
+    box-sizing: border-box; /* Ensure padding is within the input's bounds */
+}
 
-        .password-container .toggle-password {
-            position: absolute;
-            top: 50%; /* Center vertically */
-            right: 10px;
-            transform: translateY(-50%);
-            cursor: pointer;
-            font-size: 15px; /* Adjust icon size as necessary */
-            color: #ccc; /* Icon color */
-        }
+.password-container .toggle-password {
+    position: absolute;
+    top: 40%; /* Center vertically */
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 15px; /* Adjust icon size as necessary */
+}
 
         .password-container .toggle-password:hover {
             color: #333; /* Icon color on hover */
