@@ -158,74 +158,83 @@
     display: flex;
     flex-direction: column; /* Adjust to column layout for small screens */
     align-items: flex-start;
-}
+  }
 
-.product-img {
+  .product-img {
     width: 100%; /* Full width for smaller screens */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover;
     border-radius: 8px; /* Rounded corners */
     border: 1px solid #ddd; /* Optional: border */
     margin-right: 0;
-    margin-top: 5%; /* Adjusted margin */
-}
+    margin-top: 10%; /* Adjusted margin */
+  }
 
-.product-info {
+  .product-info {
     width: 100%; /* Full width for smaller screens */
-    margin-top: 4%;
-}
+    margin-top: 11%;
+    margin-left: 10px;
+  }
 
-.product-name {
+  .product-name {
     font-size: 18px;
     margin-top: 10%;
     margin-bottom: 8px;
-}
+  }
 
-.product-sales-profit {
+  .product-sales-profit {
     display: flex;
     justify-content: space-between;
     margin-top: 5px; /* Adjust spacing */
-}
+  }
 
-.text-secondary {
+  .text-secondary {
     color: #6c757d;
     font-size: 14px;
-}
+  }
 
-.font-w600 {
+  .font-w600 {
     font-weight: 600;
-}
+  }
 
-.btn-link {
+  .btn-link {
     border: none;
     background: none;
-}
+  }
 
-.btn-outline-primary {
+  .btn-outline-primary {
     color: #007bff;
     border-color: #007bff;
-}
+  }
 
-.btn-outline-primary:hover {
+  .btn-outline-primary:hover {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
-}
+  }
 
-@media (min-width: 768px) {
+  .card-title {
+    /* font-size: 50px; /*Increased font size for the title */
+  }
+
+  .btn-lg {
+    margin-top: 10px; /* Added margin to move the button down */
+  }
+
+  @media (min-width: 768px) {
     .product-bx {
-        flex-direction: row; /* Row layout for larger screens */
+      flex-direction: row; /* Row layout for larger screens */
     }
 
     .product-img {
-        width: 260px; /* Original width for larger screens */
-        margin-right: 15px;
+      width: 260px; /* Original width for larger screens */
+      margin-right: 15px;
     }
 
     .product-info {
-        margin-left: 15px;
+      margin-left: 15px;
     }
-}
+  }
   
 /*
 0 - 600: Phone
@@ -26419,6 +26428,8 @@ table.dataTable tfoot th {
 		color: $white !important;
 	}
 } */
+
+ /* ARI MAG ILIS  */
 .dataTables_wrapper .dataTables_paginate {
   align-items: center;
   display: flex;
@@ -30573,8 +30584,8 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   padding-right: 9.375rem; }
 
 :root {
-  --primary: #6610f2;
---secondary: #709fba;
+  /* anhi mag ilis color */
+  --primary: #6610f2; 
 --primary-hover: #510bc4;
 --primary-dark: #290564;
 --rgba-primary-1: rgba(102, 16, 242, 0.1);
