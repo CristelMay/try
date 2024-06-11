@@ -1,4 +1,4 @@
-body {
+  body {
             font-family: Arial, sans-serif;
             background-color: #e0e0e0; /* Updated to a slightly darker gray */
             text-align: center;
@@ -109,6 +109,11 @@ body {
             transform: translateY(-50%);
             cursor: pointer;
             font-size: 15px; /* Adjust icon size as necessary */
+            color: #ccc; /* Icon color */
+        }
+
+        .password-container .toggle-password:hover {
+            color: #333; /* Icon color on hover */
         }
 
         .forgot-password {
